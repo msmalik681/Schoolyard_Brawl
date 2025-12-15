@@ -6379,105 +6379,99 @@
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
-      "CodeBlock": "player_button1_punch",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 7758,
-      "Description": "GOSUB TO 'QUIT'"
-    },
-    {
       "CodeBlock": "spawn",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7804,
+      "MemoryOffset": 7784,
       "Description": "SPAWN"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7830,
+      "MemoryOffset": 7810,
       "Description": "STARTUP"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7830,
+      "MemoryOffset": 7810,
       "Description": "Set 'control1jumpcontrols' to '20481'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7836,
+      "MemoryOffset": 7816,
       "Description": "Set 'newvalue' to '176'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7842,
+      "MemoryOffset": 7822,
       "Description": "GOSUB TO 'SET_YRESOLUTION'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7862,
+      "MemoryOffset": 7842,
       "Description": "Core operation'RegenerateScreen'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7870,
+      "MemoryOffset": 7850,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7878,
+      "MemoryOffset": 7858,
       "Description": "Set 'fr[0]' to 'school_yard'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7884,
+      "MemoryOffset": 7864,
       "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7892,
+      "MemoryOffset": 7872,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7900,
+      "MemoryOffset": 7880,
       "Description": "GOSUB TO 'PRE_LOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7920,
+      "MemoryOffset": 7900,
       "Description": "Set 'background' to '-1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7926,
+      "MemoryOffset": 7906,
       "Description": "Set 'fr[0]' to '25'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7932,
+      "MemoryOffset": 7912,
       "Description": "Core operation'PopFromStack'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7940,
+      "MemoryOffset": 7920,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7960,
+      "MemoryOffset": 7940,
       "Description": "GOSUB TO 'FADEIN'"
     }
   ],

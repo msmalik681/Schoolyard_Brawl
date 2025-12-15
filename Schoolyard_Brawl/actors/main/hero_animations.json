@@ -100,7 +100,7 @@
         "PreventJump": "True",
         "LoopFrame": "0",
         "IsSynchronised": "True",
-        "PreventAttack": "False"
+        "PreventAttack": "True"
       }
     },
     "jump_r": {
