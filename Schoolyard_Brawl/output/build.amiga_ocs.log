@@ -1,0 +1,157 @@
+Compiled on 15 December 2025 10:09:15
+Version string: SE2025.0.251215.11.10.EX
+
+=== Misc ===
+ImageFrames: 21
+ImageFrame Data Size: 1008
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 0
+Actor Count: 2
+Actor Data Size: 360
+Block Count: 2
+Block Data Size: 136
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 1
+Sound Data Size: 28
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 9
+Animations Data Size: 144
+AnimationFrame Count: 22
+AnimationFrame Data Size: 352
+Sprites: 17
+Sprites Data Size: 238
+Attack Data: 2
+Attack Data Size: 176
+Misc data size: 38
+
+=== Cartridge Composition ===
+ Header |   Offset | Size     | Crunch    | Detail
+   PL03 |      256 |     1296 |  NoCrunch | Panel (background color #000)
+   PL01 |     1552 |     2474 |       ZX0 | Panel scorpion_eng_splashscreen
+   PL02 |     4026 |     3816 |  NoCrunch | Panel newpanel
+   PC02 |     7842 |     2708 |  NoCrunch | Panel bobs newpanel
+   VC00 |    10550 |     9044 |  NoCrunch | Project virtual machine (codeblocks)
+   MA01 |    19594 |       28 |  NoCrunch | Map actor data for school_yard
+   MH01 |    19622 |      848 |  NoCrunch | Header data for map school_yard
+   MD01 |    20470 |     1614 |  NoCrunch | Tile data for map school_yard (mem restrictions:None)
+   AB00 |    22084 |     5152 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB01 |    27236 |     2304 |  NoCrunch | Asset bundle 1 (school_yard)
+   DB00 |    29540 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |    29542 |     4376 |  NoCrunch | Project Header
+   PD00 |    33918 |     2502 |  NoCrunch | Project Data
+   VR00 |    36420 |        4 |  NoCrunch | Project virtual machine redirects
+
+=== Data Sizes ===
+    Size |   Memory | Crunch | Detail
+    9044 |     9044 |        | Project virtual machine (codeblocks)
+    5152 |     5152 |        | Asset bundle 0 (Core project asset bundle)
+    4376 |     4376 |        | Project Header
+    3816 |     3816 |        | Panel newpanel
+    2708 |     2708 |        | Panel bobs newpanel
+    2502 |     2502 |        | Project Data
+    2474 |    36784 |  (94%) | Panel scorpion_eng_splashscreen
+    2304 |     2304 |        | Asset bundle 1 (school_yard)
+    1614 |     1614 |        | Tile data for map school_yard (mem restrictions:None)
+    1296 |     1296 |        | Panel (background color #000)
+     848 |      848 |        | Header data for map school_yard
+      28 |       28 |        | Map actor data for school_yard
+       4 |        4 |        | Project virtual machine redirects
+       2 |        2 |        | Misc Data (paths, hurt boxes etc)
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+
+For chip:
+Map gfx (Panel: scorpion_eng_splashscreen): 36784
+Music sample (): 0
+BP Buffer memory: 60000
+Core sfx/gfx memory: 5152
+Parallax memory: 0
+OS/other estimated: 99328
+
+For other:
+Map data memory: 1614
+Map background memory: 1296
+EXE memory: 220120
+vm memory: 9044
+project memory: 2502
+Music data (): 0
+memory reserved for active actors on screen (16): 2536
+memory reserved for dormant actors in map (128): 4608
+OS/other estimated: 105472
+
+Accounted memory chip: 201264
+Accounted memory other: 347192
+Accounted memory total: 548456
+
+=== Possibly unused animations ===
+hero_animations_punch_l
+
+=== Codeblocks by compiled size ===
+load_level: 676
+pre_startup: 438
+do_teleport: 320
+flipscreen_smooth: 310 (Unused?)
+flipxymove: 278 (Unused?)
+load_next_level: 268 (Unused?)
+freemem: 236
+block_find: 210 (Unused?)
+set_yresolution: 202
+waitforframes: 194
+check_talkpad: 192 (Unused?)
+pause: 184
+block_count: 178 (Unused?)
+startup: 176
+flipymove: 162 (Unused?)
+snap_to_screen: 162 (Unused?)
+pre_quit: 160
+flipxmove: 142 (Unused?)
+restart_this_level: 136 (Unused?)
+load_panel: 134
+destroy_all_blocks: 128 (Unused?)
+unload_level: 118
+player_button1_punch: 118
+anim_force_left: 108 (Unused?)
+anim_force_right: 108 (Unused?)
+fadein: 108
+waitforfireup: 106
+unload_panel: 102
+waitforfiredown: 102
+load_panel_bottom: 96
+load_panel_top: 96
+destroy_child_actors: 94 (Unused?)
+autogen_hero_animations_punch_l_1: 90
+autogen_hero_animations_punch_r_1: 88
+pre_load_level: 86
+waitforfirehit: 86
+load_music: 78
+fadeout: 76
+load_music_finish: 76
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+set_ntsc: 74 (Unused?)
+flipscreen: 72 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+jump_actor: 66 (Unused?)
+destroy_all_actors: 60 (Unused?)
+quit: 60
+destroy_actor: 58
+freemem_hard: 54 (Unused?)
+destroy_block: 52 (Unused?)
+return: 52 (Unused?)
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
+new_codeblock: 42 (Unused?)
+freeze_actor: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
+autogen_hero_animations_idle_l_0: 34
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32
+debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+spawn: 26

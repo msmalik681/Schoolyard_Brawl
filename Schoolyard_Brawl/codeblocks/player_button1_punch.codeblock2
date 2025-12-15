@@ -1,0 +1,4 @@
+If player_animationtag == hero_animations_idle or player_animationtag == hero_animations_walk
+    PlayerAnimation hero_animations_punch_r Frame=0 AutoFlip
+End
+GoSub quit
