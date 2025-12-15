@@ -1,9 +1,9 @@
-Compiled on 15 December 2025 10:31:35
+Compiled on 15 December 2025 11:40:19
 Version string: SE2025.0.251215.11.10.EX
 
 === Misc ===
-ImageFrames: 21
-ImageFrame Data Size: 1008
+ImageFrames: 27
+ImageFrame Data Size: 1296
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 0
 Actor Count: 2
@@ -16,12 +16,12 @@ Sound Count: 1
 Sound Data Size: 28
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 9
-Animations Data Size: 144
-AnimationFrame Count: 22
-AnimationFrame Data Size: 352
-Sprites: 17
-Sprites Data Size: 238
+Animations Count: 11
+Animations Data Size: 176
+AnimationFrame Count: 28
+AnimationFrame Data Size: 448
+Sprites: 21
+Sprites Data Size: 294
 Attack Data: 2
 Attack Data Size: 176
 Misc data size: 38
@@ -32,25 +32,25 @@ Misc data size: 38
    PL01 |     1552 |     2474 |       ZX0 | Panel scorpion_eng_splashscreen
    PL02 |     4026 |     3816 |  NoCrunch | Panel newpanel
    PC02 |     7842 |     2708 |  NoCrunch | Panel bobs newpanel
-   VC00 |    10550 |     9024 |  NoCrunch | Project virtual machine (codeblocks)
-   MA01 |    19574 |       28 |  NoCrunch | Map actor data for school_yard
-   MH01 |    19602 |      848 |  NoCrunch | Header data for map school_yard
-   MD01 |    20450 |     1614 |  NoCrunch | Tile data for map school_yard (mem restrictions:None)
-   AB00 |    22064 |     5152 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
-   AB01 |    27216 |     2304 |  NoCrunch | Asset bundle 1 (school_yard)
-   DB00 |    29520 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |    29522 |     4376 |  NoCrunch | Project Header
-   PD00 |    33898 |     2502 |  NoCrunch | Project Data
-   VR00 |    36400 |        4 |  NoCrunch | Project virtual machine redirects
+   VC00 |    10550 |     9202 |  NoCrunch | Project virtual machine (codeblocks)
+   MA01 |    19752 |       28 |  NoCrunch | Map actor data for school_yard
+   MH01 |    19780 |      848 |  NoCrunch | Header data for map school_yard
+   MD01 |    20628 |     1614 |  NoCrunch | Tile data for map school_yard (mem restrictions:None)
+   AB00 |    22242 |     6400 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB01 |    28642 |     2304 |  NoCrunch | Asset bundle 1 (school_yard)
+   DB00 |    30946 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |    30948 |     4376 |  NoCrunch | Project Header
+   PD00 |    35324 |     2974 |  NoCrunch | Project Data
+   VR00 |    38298 |        4 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
-    9024 |     9024 |        | Project virtual machine (codeblocks)
-    5152 |     5152 |        | Asset bundle 0 (Core project asset bundle)
+    9202 |     9202 |        | Project virtual machine (codeblocks)
+    6400 |     6400 |        | Asset bundle 0 (Core project asset bundle)
     4376 |     4376 |        | Project Header
     3816 |     3816 |        | Panel newpanel
+    2974 |     2974 |        | Project Data
     2708 |     2708 |        | Panel bobs newpanel
-    2502 |     2502 |        | Project Data
     2474 |    36784 |  (94%) | Panel scorpion_eng_splashscreen
     2304 |     2304 |        | Asset bundle 1 (school_yard)
     1614 |     1614 |        | Tile data for map school_yard (mem restrictions:None)
@@ -67,7 +67,7 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 36784
 Music sample (): 0
 BP Buffer memory: 60000
-Core sfx/gfx memory: 5152
+Core sfx/gfx memory: 6400
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -75,19 +75,21 @@ For other:
 Map data memory: 1614
 Map background memory: 1296
 EXE memory: 220120
-vm memory: 9024
-project memory: 2502
+vm memory: 9202
+project memory: 2974
 Music data (): 0
 memory reserved for active actors on screen (16): 2536
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 201264
-Accounted memory other: 347172
-Accounted memory total: 548436
+Accounted memory chip: 202512
+Accounted memory other: 347822
+Accounted memory total: 550334
 
 === Possibly unused animations ===
+hero_animations_kick_l
 hero_animations_punch_l
+hero_animations_punch_r
 
 === Codeblocks by compiled size ===
 load_level: 676
@@ -122,7 +124,9 @@ player_button1_punch: 98
 load_panel_bottom: 96
 load_panel_top: 96
 destroy_child_actors: 94 (Unused?)
+autogen_hero_animations_kick_l_1: 90
 autogen_hero_animations_punch_l_1: 90
+autogen_hero_animations_kick_r_1: 88
 autogen_hero_animations_punch_r_1: 88
 pre_load_level: 86
 waitforfirehit: 86

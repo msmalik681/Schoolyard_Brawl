@@ -153,5 +153,5 @@
   "MDSoundDriver": "MDSDRV",
   "SplashScreenFrames": 50,
   "TestLevel": "stage_1",
-  "SafetyRails": false
+  "SafetyRails": true
 }

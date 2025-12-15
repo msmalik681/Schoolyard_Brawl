@@ -118,6 +118,42 @@
       "Properties": {
         "PreventJump": "False"
       }
+    },
+    "kick_r": {
+      "FrameData": [
+        {
+          "FrameID": "kick_01",
+          "Duration": 5,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "OnlySprite",
+            "SpriteType": "Channel_2_to_1"
+          }
+        },
+        {
+          "FrameID": "kick_02",
+          "Duration": 10,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"kick\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": 2,\r\n        \"Y\": -23,\r\n        \"Width\": 21,\r\n        \"Height\": 11\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}",
+            "RenderType": "OnlySprite",
+            "SpriteType": "Channel_2_to_1"
+          }
+        },
+        {
+          "FrameID": "kick_01",
+          "Duration": 5,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "OnlySprite",
+            "SpriteType": "Channel_2_to_1"
+          }
+        }
+      ],
+      "Properties": {
+        "PreventMovement": "True",
+        "PreventAttack": "True",
+        "PreventJump": "True"
+      }
     }
   },
   "Frames": {
@@ -895,6 +931,122 @@
         }
       ],
       "ColRects": {},
+      "Properties": {}
+    },
+    "kick_01": {
+      "Sprites": [
+        {
+          "FramePath": "leg_stand_kick.png",
+          "HandleX": -3,
+          "HandleY": -18,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "torso_idle.png",
+          "HandleX": -5,
+          "HandleY": -30,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "head_idle.png",
+          "HandleX": -5,
+          "HandleY": -38,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "arm_right_idle.png",
+          "HandleX": -5,
+          "HandleY": -28,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "leg_pre_kick.png",
+          "HandleX": 1,
+          "HandleY": -20,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "kick_02": {
+      "Sprites": [
+        {
+          "FramePath": "leg_stand_kick.png",
+          "HandleX": -3,
+          "HandleY": -18,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "leg_kick.png",
+          "HandleX": 2,
+          "HandleY": -22,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "torso_idle.png",
+          "HandleX": -6,
+          "HandleY": -30,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "head_idle.png",
+          "HandleX": -6,
+          "HandleY": -38,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "arm_right_idle.png",
+          "HandleX": -6,
+          "HandleY": -28,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "kick": {
+          "Value": 0,
+          "X": 2,
+          "Y": -23,
+          "Width": 21,
+          "Height": 11,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {
+            "HurtBox": "False"
+          }
+        }
+      },
       "Properties": {}
     }
   },
