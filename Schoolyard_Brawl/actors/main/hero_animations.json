@@ -40,7 +40,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "IsSynchronised": "False"
+      }
     },
     "walk_r": {
       "FrameData": [
@@ -63,7 +65,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "IsSynchronised": "False"
+      }
     },
     "punch_r": {
       "FrameData": [
@@ -99,7 +103,7 @@
         "PreventMovement": "True",
         "PreventJump": "True",
         "LoopFrame": "0",
-        "IsSynchronised": "True",
+        "IsSynchronised": "False",
         "PreventAttack": "True"
       }
     },
@@ -116,7 +120,8 @@
         }
       ],
       "Properties": {
-        "PreventJump": "False"
+        "PreventJump": "False",
+        "IsSynchronised": "False"
       }
     },
     "kick_r": {
@@ -152,7 +157,8 @@
       "Properties": {
         "PreventMovement": "True",
         "PreventAttack": "True",
-        "PreventJump": "True"
+        "PreventJump": "True",
+        "IsSynchronised": "False"
       }
     }
   },
