@@ -124,7 +124,7 @@
       "Neo_D": false,
       "Neo_Start": false,
       "Neo_Select": false,
-      "OnPress": "player_button1_punch",
+      "OnPress": "player_button1",
       "OnRelease": "none",
       "buttonState": 16
     }
