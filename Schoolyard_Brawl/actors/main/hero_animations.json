@@ -185,7 +185,9 @@
       "Properties": {
         "IsSynchronised": "False",
         "PreventAttack": "True",
-        "PreventMovement": "True"
+        "PreventMovement": "False",
+        "LoopFrame": "1",
+        "PreventJump": "True"
       }
     }
   },
