@@ -1,5 +1,5 @@
-Compiled on 16 December 2025 10:06:20
-Version string: SE2025.0.251216.18.25.EX
+Compiled on 17 December 2025 15:33:47
+Version string: SE2025.0.251217.23.43.EX
 
 === Misc ===
 ImageFrames: 31
@@ -33,15 +33,15 @@ Misc data size: 38
    PL02 |     4026 |     3816 |  NoCrunch | Panel newpanel
    PC02 |     7842 |     2708 |  NoCrunch | Panel bobs newpanel
    VC00 |    10550 |     9456 |  NoCrunch | Project virtual machine (codeblocks)
-   MA01 |    20006 |       28 |  NoCrunch | Map actor data for school_yard
-   MH01 |    20034 |      848 |  NoCrunch | Header data for map school_yard
-   MD01 |    20882 |     1614 |  NoCrunch | Tile data for map school_yard (mem restrictions:None)
-   AB00 |    22496 |     7360 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
-   AB01 |    29856 |     2304 |  NoCrunch | Asset bundle 1 (school_yard)
-   DB00 |    32160 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |    32162 |     4376 |  NoCrunch | Project Header
-   PD00 |    36538 |     3318 |  NoCrunch | Project Data
-   VR00 |    39856 |        4 |  NoCrunch | Project virtual machine redirects
+   MA01 |    20006 |      112 |  NoCrunch | Map actor data for school_yard
+   MH01 |    20118 |      848 |  NoCrunch | Header data for map school_yard
+   MD01 |    20966 |     1614 |  NoCrunch | Tile data for map school_yard (mem restrictions:None)
+   AB00 |    22580 |     7360 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB01 |    29940 |     2304 |  NoCrunch | Asset bundle 1 (school_yard)
+   DB00 |    32244 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |    32246 |     4376 |  NoCrunch | Project Header
+   PD00 |    36622 |     3318 |  NoCrunch | Project Data
+   VR00 |    39940 |        4 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
@@ -56,7 +56,7 @@ Misc data size: 38
     1614 |     1614 |        | Tile data for map school_yard (mem restrictions:None)
     1296 |     1296 |        | Panel (background color #000)
      848 |      848 |        | Header data for map school_yard
-      28 |       28 |        | Map actor data for school_yard
+     112 |      112 |        | Map actor data for school_yard
        4 |        4 |        | Project virtual machine redirects
        2 |        2 |        | Misc Data (paths, hurt boxes etc)
 
@@ -74,7 +74,7 @@ OS/other estimated: 99328
 For other:
 Map data memory: 1614
 Map background memory: 1296
-EXE memory: 220120
+EXE memory: 220112
 vm memory: 9456
 project memory: 3318
 Music data (): 0
@@ -83,8 +83,8 @@ memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 203472
-Accounted memory other: 348420
-Accounted memory total: 551892
+Accounted memory other: 348412
+Accounted memory total: 551884
 
 === Possibly unused animations ===
 hero_animations_flying_kick_l
