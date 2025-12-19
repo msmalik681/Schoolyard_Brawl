@@ -1,0 +1,11 @@
+If player_controller != 2
+    Return
+End
+
+If player_animationtag == hero_animations_idle or player_animationtag == hero_animations_walk
+    PlayerAnimation hero_animations_kick_r Frame=0 AutoFlip
+End
+
+If player_animationtag == hero_animations_jump
+    PlayerAnimation hero_animations_flying_kick_r Frame=0 Loop AutoFlip
+End

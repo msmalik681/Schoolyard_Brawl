@@ -1,4 +1,4 @@
-Compiled on 19 December 2025 20:37:37
+Compiled on 19 December 2025 20:45:00
 Version string: SE2025.0.251219.18.57.EX
 
 === Misc ===
@@ -32,24 +32,24 @@ Misc data size: 38
    PL01 |     1552 |     2474 |       ZX0 | Panel scorpion_eng_splashscreen
    PL02 |     4026 |     3816 |  NoCrunch | Panel newpanel
    PC02 |     7842 |     2708 |  NoCrunch | Panel bobs newpanel
-   VC00 |    10550 |     9504 |  NoCrunch | Project virtual machine (codeblocks)
-   MA01 |    20054 |       28 |  NoCrunch | Map actor data for school_yard
-   MH01 |    20082 |      848 |  NoCrunch | Header data for map school_yard
-   MD01 |    20930 |     1614 |  NoCrunch | Tile data for map school_yard (mem restrictions:None)
-   AB00 |    22544 |     7360 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
-   AB01 |    29904 |     2304 |  NoCrunch | Asset bundle 1 (school_yard)
-   DB00 |    32208 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |    32210 |     4376 |  NoCrunch | Project Header
-   PD00 |    36586 |     3318 |  NoCrunch | Project Data
-   VR00 |    39904 |        4 |  NoCrunch | Project virtual machine redirects
+   VC00 |    10550 |     9940 |  NoCrunch | Project virtual machine (codeblocks)
+   MA01 |    20490 |       28 |  NoCrunch | Map actor data for school_yard
+   MH01 |    20518 |      848 |  NoCrunch | Header data for map school_yard
+   MD01 |    21366 |     1614 |  NoCrunch | Tile data for map school_yard (mem restrictions:None)
+   AB00 |    22980 |     7360 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB01 |    30340 |     2304 |  NoCrunch | Asset bundle 1 (school_yard)
+   DB00 |    32644 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |    32646 |     4376 |  NoCrunch | Project Header
+   PD00 |    37022 |     3330 |  NoCrunch | Project Data
+   VR00 |    40352 |        4 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
-    9504 |     9504 |        | Project virtual machine (codeblocks)
+    9940 |     9940 |        | Project virtual machine (codeblocks)
     7360 |     7360 |        | Asset bundle 0 (Core project asset bundle)
     4376 |     4376 |        | Project Header
     3816 |     3816 |        | Panel newpanel
-    3318 |     3318 |        | Project Data
+    3330 |     3330 |        | Project Data
     2708 |     2708 |        | Panel bobs newpanel
     2474 |    36784 |  (94%) | Panel scorpion_eng_splashscreen
     2304 |     2304 |        | Asset bundle 1 (school_yard)
@@ -75,16 +75,16 @@ For other:
 Map data memory: 1614
 Map background memory: 1296
 EXE memory: 220124
-vm memory: 9504
-project memory: 3318
+vm memory: 9940
+project memory: 3330
 Music data (): 0
 memory reserved for active actors on screen (16): 2536
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 203472
-Accounted memory other: 348472
-Accounted memory total: 551944
+Accounted memory other: 348920
+Accounted memory total: 552392
 
 === Possibly unused animations ===
 hero_animations_flying_kick_l
@@ -105,7 +105,9 @@ set_yresolution: 202
 waitforframes: 194
 check_talkpad: 192 (Unused?)
 player_button1: 192
+player2_button1: 192
 pause: 184
+sajid_autogen_attack: 184
 block_count: 178 (Unused?)
 startup: 176
 flipymove: 162 (Unused?)
@@ -114,6 +116,7 @@ pre_quit: 160
 flipxmove: 142 (Unused?)
 restart_this_level: 136 (Unused?)
 load_panel: 134
+stage_startup: 132
 destroy_all_blocks: 128 (Unused?)
 unload_level: 118
 anim_force_left: 108 (Unused?)
@@ -142,7 +145,6 @@ set_ntsc: 74 (Unused?)
 flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
-stage_startup: 72
 jump_actor: 66 (Unused?)
 destroy_all_actors: 60 (Unused?)
 quit: 60 (Unused?)

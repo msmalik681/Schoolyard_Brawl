@@ -194,7 +194,7 @@
   "AutoClearChildren": false,
   "DivertMeleeByProjectile": null,
   "DivertMeleeAgainstProjectile": null,
-  "IsAttacker": false,
+  "IsAttacker": true,
   "PreviewParent": null,
   "RotationEnabled": false,
   "TileID": 0,
