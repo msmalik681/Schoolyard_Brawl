@@ -1,5 +1,5 @@
-Compiled on 17 December 2025 15:33:47
-Version string: SE2025.0.251217.23.43.EX
+Compiled on 19 December 2025 20:37:37
+Version string: SE2025.0.251219.18.57.EX
 
 === Misc ===
 ImageFrames: 31
@@ -32,20 +32,20 @@ Misc data size: 38
    PL01 |     1552 |     2474 |       ZX0 | Panel scorpion_eng_splashscreen
    PL02 |     4026 |     3816 |  NoCrunch | Panel newpanel
    PC02 |     7842 |     2708 |  NoCrunch | Panel bobs newpanel
-   VC00 |    10550 |     9456 |  NoCrunch | Project virtual machine (codeblocks)
-   MA01 |    20006 |      112 |  NoCrunch | Map actor data for school_yard
-   MH01 |    20118 |      848 |  NoCrunch | Header data for map school_yard
-   MD01 |    20966 |     1614 |  NoCrunch | Tile data for map school_yard (mem restrictions:None)
-   AB00 |    22580 |     7360 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
-   AB01 |    29940 |     2304 |  NoCrunch | Asset bundle 1 (school_yard)
-   DB00 |    32244 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |    32246 |     4376 |  NoCrunch | Project Header
-   PD00 |    36622 |     3318 |  NoCrunch | Project Data
-   VR00 |    39940 |        4 |  NoCrunch | Project virtual machine redirects
+   VC00 |    10550 |     9504 |  NoCrunch | Project virtual machine (codeblocks)
+   MA01 |    20054 |       28 |  NoCrunch | Map actor data for school_yard
+   MH01 |    20082 |      848 |  NoCrunch | Header data for map school_yard
+   MD01 |    20930 |     1614 |  NoCrunch | Tile data for map school_yard (mem restrictions:None)
+   AB00 |    22544 |     7360 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB01 |    29904 |     2304 |  NoCrunch | Asset bundle 1 (school_yard)
+   DB00 |    32208 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |    32210 |     4376 |  NoCrunch | Project Header
+   PD00 |    36586 |     3318 |  NoCrunch | Project Data
+   VR00 |    39904 |        4 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
-    9456 |     9456 |        | Project virtual machine (codeblocks)
+    9504 |     9504 |        | Project virtual machine (codeblocks)
     7360 |     7360 |        | Asset bundle 0 (Core project asset bundle)
     4376 |     4376 |        | Project Header
     3816 |     3816 |        | Panel newpanel
@@ -56,7 +56,7 @@ Misc data size: 38
     1614 |     1614 |        | Tile data for map school_yard (mem restrictions:None)
     1296 |     1296 |        | Panel (background color #000)
      848 |      848 |        | Header data for map school_yard
-     112 |      112 |        | Map actor data for school_yard
+      28 |       28 |        | Map actor data for school_yard
        4 |        4 |        | Project virtual machine redirects
        2 |        2 |        | Misc Data (paths, hurt boxes etc)
 
@@ -74,8 +74,8 @@ OS/other estimated: 99328
 For other:
 Map data memory: 1614
 Map background memory: 1296
-EXE memory: 220112
-vm memory: 9456
+EXE memory: 220124
+vm memory: 9504
 project memory: 3318
 Music data (): 0
 memory reserved for active actors on screen (16): 2536
@@ -83,8 +83,8 @@ memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 203472
-Accounted memory other: 348412
-Accounted memory total: 551884
+Accounted memory other: 348472
+Accounted memory total: 551944
 
 === Possibly unused animations ===
 hero_animations_flying_kick_l
@@ -104,13 +104,13 @@ block_find: 210 (Unused?)
 set_yresolution: 202
 waitforframes: 194
 check_talkpad: 192 (Unused?)
+player_button1: 192
 pause: 184
 block_count: 178 (Unused?)
 startup: 176
 flipymove: 162 (Unused?)
 snap_to_screen: 162 (Unused?)
 pre_quit: 160
-player_button1: 150
 flipxmove: 142 (Unused?)
 restart_this_level: 136 (Unused?)
 load_panel: 134
@@ -142,18 +142,18 @@ set_ntsc: 74 (Unused?)
 flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
+stage_startup: 72
 jump_actor: 66 (Unused?)
 destroy_all_actors: 60 (Unused?)
 quit: 60 (Unused?)
 destroy_actor: 58
-on_land: 58
+on_land: 58 (Unused?)
 freemem_hard: 54 (Unused?)
 destroy_block: 52 (Unused?)
 return: 52 (Unused?)
 load_panel_finish: 50
 unload_panel_bottom: 50
 unload_panel_top: 50
-new_codeblock: 42 (Unused?)
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
 block_coll_force: 32 (Unused?)
@@ -161,4 +161,3 @@ block_coll_passthru: 32
 debug_breakpoint: 26 (Unused?)
 hardware_amiga: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)
-spawn: 26

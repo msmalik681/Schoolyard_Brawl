@@ -1,1 +1,1 @@
-PlayerType sajid ResetMovement ResetAnimation
+ActorAnimation trigger_cancelanimation Frame=0 AutoFlip

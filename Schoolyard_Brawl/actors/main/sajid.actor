@@ -147,7 +147,7 @@
   "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
-  "DivertPlatformLand": "on_land",
+  "DivertPlatformLand": "none",
   "DivertTimer": null,
   "DivertTimerFrames": 0,
   "Vars": [
@@ -161,7 +161,7 @@
   "ControlPort": 1,
   "DataVersion": 8,
   "ActorTag": "None",
-  "AutoSpawn": null,
+  "AutoSpawn": false,
   "AutoNavigate": true,
   "ActorTimeline": {
     "TimelineFrames": {
@@ -194,7 +194,7 @@
   "AutoClearChildren": false,
   "DivertMeleeByProjectile": null,
   "DivertMeleeAgainstProjectile": null,
-  "IsAttacker": null,
+  "IsAttacker": false,
   "PreviewParent": null,
   "RotationEnabled": false,
   "TileID": 0,
