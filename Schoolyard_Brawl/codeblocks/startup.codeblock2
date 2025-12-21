@@ -1,3 +1,6 @@
+Variable word current_player=1 //check the current controlling player
+ControlMode joys_2
 JumpControls player1 !UJF
+JumpControls player2 !UJF
 Screen Height=176 Frames=0
 Level school_yard

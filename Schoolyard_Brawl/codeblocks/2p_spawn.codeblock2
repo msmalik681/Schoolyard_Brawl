@@ -1,0 +1,3 @@
+ActorSpawnChild sajid
+Set new_controller=2
+ActorType none ResetMovement ResetAnimation

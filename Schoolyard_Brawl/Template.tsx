@@ -6,4 +6,9 @@
       <property name="Name" value="sajid" type="string" />
     </properties>
   </tile>
+  <tile id="1">
+    <properties>
+      <property name="Name" value="2p_spawner" type="string" />
+    </properties>
+  </tile>
 </tileset>
