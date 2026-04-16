@@ -7,3 +7,7 @@ project_name=
 project_name_international=
 publisher=
 version=
+
+[amiga_all]
+atlas_compression=0
+tightly_pack_graphics=true
